@@ -1,0 +1,9 @@
+<?php
+require_once('.creds.php');
+require_once('.session.php');
+startSession();
+killSession();
+?>
+<Response>
+	<Reject>
+</Response>
